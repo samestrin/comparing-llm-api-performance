@@ -1,0 +1,30 @@
+{
+  "name": "comparing-llm-api-performance",
+  "version": "1.0.0",
+  "description": "Simple script that compares LLM API performance.",
+  "main": "testPerformance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samestrin/comparing-llm-api-performance.git"
+  },
+  "keywords": [
+    "LLM",
+    "API",
+    "llm-interface",
+    "performance",
+    "testing"
+  ],
+  "author": "Sam Estrin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samestrin/comparing-llm-api-performance/issues"
+  },
+  "homepage": "https://github.com/samestrin/comparing-llm-api-performance#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "llm-interface": "^2.0.2"
+  }
+}
