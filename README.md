@@ -1,6 +1,6 @@
 # Comparing LLM API Performance
 
-This repository contains a test script that sends the simple prompt to each API provider ten times, using the smallest model available. The script measures the average response time (including latency), standard deviation of the response time, and success rate. After each request, the script sleeps to prevent rate limit exceeded errors. (The default sleep is 1 second but is configurable.)
+This repository contains a test script that sends the simple prompt to each API provider ten times, using a small and large model (via the `llm-interface` model aliases). The script measures the average response time, standard deviation of the response time, latency, and success rate. After each request, the script sleeps to prevent rate limit exceeded errors. (The default sleep is 1 second but is configurable.)
 
 This is the example code for the **Comparing LLM API Performance with Node.js: Average Response Times using npm llm-interface** article.
 
