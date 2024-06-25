@@ -46,6 +46,12 @@ REKA_API_KEY=your_reka_api_key
 1. Run the performance test script:
 
 ```sh
+npm run test-llm-performance
+```
+
+or
+
+```sh
 node testLLMPerformance.js
 ```
 
