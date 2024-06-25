@@ -130,4 +130,3 @@ dist
 .pnp.*
 
 /src/cache
-node_modules
