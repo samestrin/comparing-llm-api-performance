@@ -53,11 +53,11 @@ node testLLMPerformance.js
 
 3. You should now have a `results.csv` file in your current directory. Since CSV is a text-based format, you can open this file using any basic text editor. However, this will display the data in raw format without any table structure. For a more user-friendly view, you can use a freely available online spreadsheet like Google Sheets or Microsoft Excel Online.
 
+4. You should also have `sampleSmall.md` and `sampleLarge.md`. Markdown is also a text-based format, so you can open either file using any basic text editor. If prefer a markdown editor instead, StackEdit is a freely available online markdown editor that is easy to use.
+
 ## LLM API Performance: Response Times (ms)
 
-The following chart reflects the data I collected for the **Comparing LLM API Performance with Node.js: Average Response Times using npm llm-interface** article.
-
-Based on: [results.csv](results.csv)
+To see the results of my testing you can read [Comparing 13 LLM Providers API Performance with Node.js: Latency and Response Times Across Models](https://dev.to/samestrin/comparing-13-llm-providers-api-performance-with-nodejs-latency-and-response-times-across-models-2ka4).
 
 ## License
 
