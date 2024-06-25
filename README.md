@@ -22,7 +22,7 @@ cd comparing-llm-api-performance
 2. Install the required npm packages:
 
 ```sh
-npm install llm-interface dotenv
+npm install llm-interface ping cli-progress dotenv
 ```
 
 3. Create a `.env` file in the root directory and add your API keys:
@@ -46,7 +46,7 @@ REKA_API_KEY=your_reka_api_key
 1. Run the performance test script:
 
 ```sh
-node testLLMPerformanceSmallModels.js
+node testLLMPerformance.js
 ```
 
 2. The script will append the average response time in milliseconds for each provider in CSV format to `results.csv`.
@@ -56,8 +56,6 @@ node testLLMPerformanceSmallModels.js
 ## LLM API Performance: Response Times (ms)
 
 The following chart reflects the data I collected for the **Comparing LLM API Performance with Node.js: Average Response Times using npm llm-interface** article.
-
-> ![LLM API Performance: Response Times (ms)](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1c336e1wddu9gylei6h8.png)
 
 Based on: [results.csv](results.csv)
 
