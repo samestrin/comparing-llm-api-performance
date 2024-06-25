@@ -2,7 +2,7 @@
 
 This repository contains a test script that sends the simple prompt to each API provider ten times, using a small and large model (via the `llm-interface` model aliases). The script measures the average response time, standard deviation of the response time, latency, and success rate. After each request, the script sleeps to prevent rate limit exceeded errors. (The default sleep is 1 second but is configurable.)
 
-This is the example code for the **Comparing LLM API Performance with Node.js: Average Response Times using npm llm-interface** article.
+This is the example code for the **[Comparing 13 LLM Providers API Performance with Node.js: Latency and Response Times Across Models](https://dev.to/samestrin/comparing-13-llm-providers-api-performance-with-nodejs-latency-and-response-times-across-models-2ka4)** article.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ cd comparing-llm-api-performance
 npm install llm-interface ping cli-progress dotenv
 ```
 
-3. Create a `.env` file in the root directory and add your API keys:
+3. Create a `.env` file in the root directory and add your API keys:g
 
 ```sh
 OPENAI_API_KEY=your_openai_api_key
