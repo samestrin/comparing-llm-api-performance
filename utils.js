@@ -7,7 +7,7 @@ const { URL } = require("url");
  * @param {number} attempts - The number of ping attempts.
  * @returns {number|boolean} - The average latency or false if unsuccessful.
  */
-async function measureLatency(url, attempts = 5) {
+async function measureLatency(url, attempts = 10) {
   const hostname = new URL(url).hostname;
   const domainName = hostname.split(".").slice(-2).join("."); // Extract the domain name
   const pingTimes = [];
